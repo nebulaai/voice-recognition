@@ -13,7 +13,14 @@ Mozilla Deep Speech is Mozilla’s implementation of Baidu’s Deep Speech [1] N
 
 ## How to use  Mozilla Deep Speech
 
-You can use  Speech_To_Text.ipynb for training a speech to text, you need to replace _downloads/speech.mp3_ with the file name you used in the following commind in the cell
+Open notebook after login to  https://nbai.io
+Open a terminal and type
+`
+git clone https://github.com/nebulaai/voice-recognition.git
+`
+
+You can use  Speech_To_Text.ipynb for converting a speech to text, you need to replace _downloads/speech.mp3_ with the file name you used in the following commind in the cell
+
 `
 !ffmpeg -i downloads/speech.mp3 -vn -acodec pcm_s16le -ac 1 -ar 16000 -f wav downloads/speech.wav
 `
