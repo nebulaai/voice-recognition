@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+._deepspeech-0.5.1-models
 build/
 models
 develop-eggs/
