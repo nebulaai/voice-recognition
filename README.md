@@ -4,17 +4,19 @@
 
 Mozilla Deep Speech is Mozilla’s implementation of Baidu’s Deep Speech [1] Neural Network Architecture. It is designed for various reasons:
 
-    open state-of-the-art alternative to proprietary solutions such as Amazon Alex, Google Assistant or Baidu …
-    offline support
-        privacy
-        low latency
-        works in “disconnected” settings, e.g. industrial control systems that are detached for good reasons or mobile devices experiencing insufficient network coverage
+- open state-of-the-art alternative to proprietary solutions such as Amazon Alex, Google Assistant or Baidu …
+- offline support
+- privacy
+- low latency
+- works in “disconnected” settings, e.g. industrial control systems that are detached for good reasons or mobile devices experiencing insufficient network coverage
     scaleable
 
 ## How to use  Mozilla Deep Speech
 
 Open notebook after login to  https://nbai.io
+
 Open a terminal and type
+
 `
 git clone https://github.com/nebulaai/voice-recognition.git
 `
