@@ -1,6 +1,6 @@
-# Voice recognition
+# Voice Recognition
 
-##Introduction to Mozilla Deep Speech
+## Introduction to Mozilla Deep Speech
 
 Mozilla Deep Speech is Mozilla’s implementation of Baidu’s Deep Speech [1] Neural Network Architecture. It is designed for various reasons:
 
